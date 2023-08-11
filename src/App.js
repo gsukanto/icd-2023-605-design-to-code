@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {
+  NavBarHeader2,
+  HeroLayout2,
+  MarketingPricing,
+  Features2x2,
+  CTASection,
+  MarketingFooter
+}  from './ui-components';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBarHeader2 width={"100vw"} />
+      <HeroLayout2 width={"100vw"} />
+      <MarketingPricing width={"100vw"} />
+      <Features2x2 width={"100vw"} />
+      <CTASection width={"100vw"} />
+      <MarketingFooter width={"100vw"} />
     </div>
   );
 }
